@@ -1,0 +1,23 @@
+name:                composite-aeson-writeonly
+version:             0.1.0.0
+license:             MIT
+category:            Text
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2020 Daniel Firth"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            WriteOnly indicators for composite-aeson.
+description:         WriteOnly indicators for composite-aeson.
+
+dependencies:
+- aeson
+- aeson-better-errors
+- base >= 4.7 && < 5
+- composite-aeson
+
+library:
+  source-dirs: src
